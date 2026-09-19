@@ -1,15 +1,17 @@
-// Khai báo
+// Khai báo biến
 let devilFruit = "gomu-gomu";
+let awakenState = "";
 
 // Kiểm tra trạng thái thức tỉnh tương ứng và in ra màn hình
 if (devilFruit === "gomu-gomu") {
-    console.log("Gear 5 Unlocked!");
+    awakenState = "Gear 5 Unlocked!";
 } else if (devilFruit === "mera-mera") {
-    console.log("Flame Emperor!");
+    awakenState = "Flame Emperor!";
 } else if (devilFruit === "ope-ope") {
-    console.log("Room & Ope!");
+    awakenState = "Room & Ope!";
 } else if (devilFruit === "none") {
-    console.log("Normal human");
+    awakenState = "Normal human";
 } else {
-    console.log("Unknow devil fruit");
+    awakenState = "Unknow devil fruit";
 }
+console.log(awakenState);
